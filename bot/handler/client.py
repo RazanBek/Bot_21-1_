@@ -3,6 +3,7 @@ from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from bot.config import bot
 import random
 from bot.database.db import sql_command_random
+from bot.parser.film import parser
 
 
 # @dp.message_handler(commands=['mem'])
