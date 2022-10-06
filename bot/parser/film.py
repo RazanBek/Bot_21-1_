@@ -36,5 +36,5 @@ def parser():
     else:
         raise Exception("ошибка при парсинге")
 
-
-pprint(parser())
+#
+# pprint(parser())

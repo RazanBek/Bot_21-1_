@@ -79,6 +79,6 @@ def register_handler_client(dp: Dispatcher):
     dp.register_message_handler(quiz_1, commands=['quiz_1'])
     dp.register_message_handler(show_random_user, commands=['get'])
 
-
-def register_handler_client_1(dp: Dispatcher):
-    dp.register_message_handler(quiz_2, commands=['quiz_2'])
+#
+# def register_handler_client_1(dp: Dispatcher):
+#     dp.register_message_handler(quiz_2, commands=['quiz_2'])
